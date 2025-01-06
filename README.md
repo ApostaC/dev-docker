@@ -10,3 +10,9 @@ Docker image with developer packages installed
 - tmux with customized tmux configurations
 - nodejs v22.12.0 (for vim copliot support)
 
+## Build docker
+
+```bash
+docker build -t apostacyh/devenv:latest .
+docker push apostacyh/devenv:latest
+```
